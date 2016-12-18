@@ -1,10 +1,27 @@
 ﻿<!DOCTYPE html>
-<html>
+<html ng-app="HandsOnLabsModule" ng-controller="LandingPageController">
 <head>
-    <title>Hands-on-labs</title>
+    <title ng-bind="landingPageModel.title"></title>
 	<meta charset="utf-8" />
-</head>
-<body>
+    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width" />
 
+    <link href="content/angular/angular-material.css" rel="stylesheet" />
+    <link href="content/angular/angular-material.layout-attributes.css" rel="stylesheet" />
+    <link href="content/angular/angular-material.layouts.css" rel="stylesheet" />
+
+</head>
+<body layout="row">
+
+    <script src="scripts/sharedLibs/jquery/jquery-2.2.0.min.js"></script>
+    <script src="scripts/sharedLibs/angular/angular.js"></script>
+    <script src="scripts/sharedLibs/angular/angular-animate.min.js"></script>
+    <script src="scripts/sharedLibs/angular/angular-aria.js"></script>
+    <script src="scripts/sharedLibs/angular-route/angular-route.js"></script>
+    <script src="scripts/sharedLibs/angular-route/angular-ui-router.js"></script>
+    <script src="scripts/sharedLibs/angular-material/angular-material.js"></script>
+
+    <script src="scripts/custom/HandsOnLabsApp.js"></script>
+    <script src="scripts/custom/controllers/LandingPageController.js"></script>
 </body>
 </html>

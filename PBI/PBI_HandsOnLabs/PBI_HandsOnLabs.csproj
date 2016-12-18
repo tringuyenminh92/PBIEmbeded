@@ -66,6 +66,22 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_HOL\content\angular\angular-material.css" />
+    <Content Include="App_HOL\content\angular\angular-material.layout-attributes.css" />
+    <Content Include="App_HOL\content\angular\angular-material.layout-attributes.min.css" />
+    <Content Include="App_HOL\content\angular\angular-material.layouts.css" />
+    <Content Include="App_HOL\content\angular\angular-material.layouts.ie_fixes.css" />
+    <Content Include="App_HOL\content\angular\angular-material.layouts.min.css" />
+    <Content Include="App_HOL\content\angular\angular-material.min.css" />
+    <Content Include="App_HOL\scripts\custom\controllers\LandingPageController.js" />
+    <Content Include="App_HOL\scripts\custom\HandsOnLabsApp.js" />
+    <Content Include="App_HOL\scripts\sharedLibs\angular\angular-animate.js" />
+    <Content Include="App_HOL\scripts\sharedLibs\angular\angular-animate.min.js" />
+    <Content Include="App_HOL\scripts\sharedLibs\angular\angular-aria.js" />
+    <Content Include="App_HOL\scripts\sharedLibs\angular\angular-aria.min.js" />
+    <Content Include="App_HOL\scripts\sharedLibs\angular\angular.js" />
+    <Content Include="App_HOL\scripts\sharedLibs\angular\angular.min.js" />
+    <Content Include="App_HOL\scripts\sharedLibs\jquery\jquery-2.2.0.min.js" />
     <Content Include="packages.config" />
     <Content Include="content\fonts\metro.eot" />
     <Content Include="content\fonts\metro.ttf" />
@@ -87,8 +103,6 @@
     <Content Include="App_HOL\scripts\sharedLibs\angular-route\angular-route.min.js" />
     <Content Include="App_HOL\scripts\sharedLibs\angular-route\angular-ui-router.js" />
     <Content Include="App_HOL\scripts\sharedLibs\angular-route\angular-ui-router.min.js" />
-    <Content Include="App_HOL\scripts\sharedLibs\angular\angular.js" />
-    <Content Include="App_HOL\scripts\sharedLibs\angular\angular.min.js" />
     <Content Include="content\fonts\metro.svg" />
     <Content Include="content\main.css" />
     <Content Include="content\metroui\metro-colors.css" />
@@ -140,7 +154,6 @@
   <ItemGroup>
     <Folder Include="App_HOL\content\fonts\" />
     <Folder Include="App_HOL\images\" />
-    <Folder Include="App_HOL\scripts\custom\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
