@@ -73,6 +73,7 @@
     <Content Include="App_HOL\content\angular\angular-material.layouts.ie_fixes.css" />
     <Content Include="App_HOL\content\angular\angular-material.layouts.min.css" />
     <Content Include="App_HOL\content\angular\angular-material.min.css" />
+    <Content Include="App_HOL\favicon.ico" />
     <Content Include="App_HOL\scripts\custom\controllers\LandingPageController.js" />
     <Content Include="App_HOL\scripts\custom\HandsOnLabsApp.js" />
     <Content Include="App_HOL\scripts\sharedLibs\angular\angular-animate.js" />
