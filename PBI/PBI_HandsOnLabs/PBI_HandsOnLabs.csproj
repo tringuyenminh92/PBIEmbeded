@@ -76,6 +76,7 @@
     <Content Include="App_HOL\favicon.ico" />
     <Content Include="App_HOL\scripts\custom\controllers\LandingPageController.js" />
     <Content Include="App_HOL\scripts\custom\HandsOnLabsApp.js" />
+    <Content Include="App_HOL\scripts\custom\service\PowerBiService.js" />
     <Content Include="App_HOL\scripts\sharedLibs\angular\angular-animate.js" />
     <Content Include="App_HOL\scripts\sharedLibs\angular\angular-animate.min.js" />
     <Content Include="App_HOL\scripts\sharedLibs\angular\angular-aria.js" />
@@ -83,6 +84,10 @@
     <Content Include="App_HOL\scripts\sharedLibs\angular\angular.js" />
     <Content Include="App_HOL\scripts\sharedLibs\angular\angular.min.js" />
     <Content Include="App_HOL\scripts\sharedLibs\jquery\jquery-2.2.0.min.js" />
+    <Content Include="App_HOL\scripts\sharedLibs\powerbi\angular-powerbi.js" />
+    <Content Include="App_HOL\scripts\sharedLibs\powerbi\angular-powerbi.min.js" />
+    <Content Include="App_HOL\scripts\sharedLibs\powerbi\powerbi.js" />
+    <Content Include="App_HOL\scripts\sharedLibs\powerbi\powerbi.min.js" />
     <Content Include="packages.config" />
     <Content Include="content\fonts\metro.eot" />
     <Content Include="content\fonts\metro.ttf" />
