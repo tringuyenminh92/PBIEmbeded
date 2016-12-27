@@ -73,10 +73,12 @@
     <Content Include="App_HOL\content\angular\angular-material.layouts.ie_fixes.css" />
     <Content Include="App_HOL\content\angular\angular-material.layouts.min.css" />
     <Content Include="App_HOL\content\angular\angular-material.min.css" />
+    <Content Include="App_HOL\content\docs.css" />
+    <Content Include="App_HOL\content\layout.css" />
     <Content Include="App_HOL\favicon.ico" />
+    <Content Include="App_HOL\images\angular-logo.svg" />
     <Content Include="App_HOL\scripts\custom\controllers\LandingPageController.js" />
     <Content Include="App_HOL\scripts\custom\HandsOnLabsApp.js" />
-    <Content Include="App_HOL\scripts\custom\service\PowerBiService.js" />
     <Content Include="App_HOL\scripts\sharedLibs\angular\angular-animate.js" />
     <Content Include="App_HOL\scripts\sharedLibs\angular\angular-animate.min.js" />
     <Content Include="App_HOL\scripts\sharedLibs\angular\angular-aria.js" />
@@ -93,6 +95,8 @@
     <Content Include="content\fonts\metro.ttf" />
     <Content Include="content\fonts\metro.woff" />
     <Content Include="content\fonts\selection.json" />
+    <Content Include="App_HOL\scripts\sharedLibs\powerbi\angular-powerbi.js.map" />
+    <None Include="Properties\PublishProfiles\tringuyenminh - Web Deploy.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -159,7 +163,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_HOL\content\fonts\" />
-    <Folder Include="App_HOL\images\" />
+    <Folder Include="App_HOL\scripts\custom\service\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

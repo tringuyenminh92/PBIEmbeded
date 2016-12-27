@@ -1,5 +1,5 @@
 ﻿
-function LandingPageController($scope, ReportsService) {
+function LandingPageController($scope, pbiService) {
 
     'use strict';
 
@@ -7,10 +7,7 @@ function LandingPageController($scope, ReportsService) {
         title: 'Hands-on-labs'
     };
 
-    $scope.reportData = ReportsService.findById('9103e180-24bf-478c-be9b-123e479375e6');
-    console.log($scope.reportData);
-
 }
 
-LandingPageController.$inject = ['$scope', 'ReportsService'];
+LandingPageController.$inject = ['$scope', 'PowerBiService'];
 angular.module('HandsOnLabsModule').controller('LandingPageController', LandingPageController);
