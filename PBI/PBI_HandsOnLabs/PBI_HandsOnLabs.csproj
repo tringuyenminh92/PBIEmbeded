@@ -99,6 +99,8 @@
     <Content Include="App_HOL\scripts\sharedLibs\powerbi\angular-powerbi.min.js" />
     <Content Include="App_HOL\scripts\sharedLibs\powerbi\powerbi.js" />
     <Content Include="App_HOL\scripts\sharedLibs\powerbi\powerbi.min.js" />
+    <Content Include="images\facebook.png" />
+    <Content Include="images\linkedin.png" />
     <Content Include="packages.config" />
     <Content Include="content\fonts\metro.eot" />
     <Content Include="content\fonts\metro.ttf" />
