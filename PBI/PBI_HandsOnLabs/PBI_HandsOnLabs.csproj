@@ -73,7 +73,12 @@
     <Content Include="App_HOL\content\angular\angular-material.layouts.ie_fixes.css" />
     <Content Include="App_HOL\content\angular\angular-material.layouts.min.css" />
     <Content Include="App_HOL\content\angular\angular-material.min.css" />
+    <Content Include="App_HOL\content\bootstrap\bootstrap-theme.css" />
+    <Content Include="App_HOL\content\bootstrap\bootstrap-theme.min.css" />
+    <Content Include="App_HOL\content\bootstrap\bootstrap.css" />
+    <Content Include="App_HOL\content\bootstrap\bootstrap.min.css" />
     <Content Include="App_HOL\content\docs.css" />
+    <Content Include="App_HOL\content\fonts\glyphicons-halflings-regular.svg" />
     <Content Include="App_HOL\content\layout.css" />
     <Content Include="App_HOL\favicon.ico" />
     <Content Include="App_HOL\images\angular-logo.svg" />
@@ -85,6 +90,8 @@
     <Content Include="App_HOL\scripts\sharedLibs\angular\angular-aria.min.js" />
     <Content Include="App_HOL\scripts\sharedLibs\angular\angular.js" />
     <Content Include="App_HOL\scripts\sharedLibs\angular\angular.min.js" />
+    <Content Include="App_HOL\scripts\sharedLibs\bootstrap\bootstrap.js" />
+    <Content Include="App_HOL\scripts\sharedLibs\bootstrap\bootstrap.min.js" />
     <Content Include="App_HOL\scripts\sharedLibs\jquery\jquery-2.2.0.min.js" />
     <Content Include="App_HOL\scripts\sharedLibs\powerbi\angular-powerbi.js" />
     <Content Include="App_HOL\scripts\sharedLibs\powerbi\angular-powerbi.min.js" />
@@ -96,7 +103,16 @@
     <Content Include="content\fonts\metro.woff" />
     <Content Include="content\fonts\selection.json" />
     <Content Include="App_HOL\scripts\sharedLibs\powerbi\angular-powerbi.js.map" />
+    <Content Include="App_HOL\content\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="App_HOL\content\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="App_HOL\content\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="App_HOL\content\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="App_HOL\content\bootstrap\bootstrap-theme.css.map" />
+    <Content Include="App_HOL\content\bootstrap\bootstrap-theme.min.css.map" />
+    <Content Include="App_HOL\content\bootstrap\bootstrap.css.map" />
+    <Content Include="App_HOL\content\bootstrap\bootstrap.min.css.map" />
     <None Include="Properties\PublishProfiles\tringuyenminh - Web Deploy.pubxml" />
+    <None Include="Properties\PublishProfiles\tringuyenminh.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -162,7 +178,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="App_HOL\content\fonts\" />
     <Folder Include="App_HOL\scripts\custom\service\" />
   </ItemGroup>
   <PropertyGroup>
