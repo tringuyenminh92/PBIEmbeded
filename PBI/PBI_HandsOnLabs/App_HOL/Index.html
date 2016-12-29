@@ -6,7 +6,6 @@
     <link href="/App_HOL/favicon.ico" rel="shortcut icon" type="image/x-icon" />
     <meta name="viewport" content="width=device-width" />
 
-
     <link href="content/bootstrap/bootstrap.css" rel="stylesheet" />
 
     <link href="content/angular/angular-material.css" rel="stylesheet" />
@@ -38,11 +37,11 @@
         </md-toolbar>
         <md-content flex>
             <ui-view layout="column" layout-fill layout-padding>
-                ui-view
+                <h2><button class="label label-success" ng-click="showReport()">Basic Embed Report</button></h2>
+                <div id="reportContainer" class="flex"></div>
             </ui-view>
         </md-content>
     </div>
-
 
 
     <script src="scripts/sharedLibs/jquery/jquery-2.2.0.min.js"></script>
@@ -58,7 +57,6 @@
     <script src="scripts/sharedLibs/angular-material/angular-material.js"></script>
 
     <script src="scripts/sharedLibs/powerbi/powerbi.js"></script>
-    <script src="scripts/sharedLibs/powerbi/angular-powerbi.js"></script>
 
     <script src="scripts/custom/HandsOnLabsApp.js"></script>
     <script src="scripts/custom/controllers/LandingPageController.js"></script>

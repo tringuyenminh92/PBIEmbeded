@@ -3,7 +3,7 @@
 
     "use strict";
 
-    angular.module('HandsOnLabsModule', ['ngAnimate', 'ui.router', 'ngMaterial', 'powerbi']);
+    angular.module('HandsOnLabsModule', ['ngAnimate', 'ui.router', 'ngMaterial']);
 
     configFunction.$inject = ['$stateProvider', '$httpProvider', '$locationProvider', '$urlRouterProvider', '$mdThemingProvider'];
     function configFunction($stateProvider, $httpProvider, $locationProvider, $urlRouterProvider, $mdThemingProvider) {
