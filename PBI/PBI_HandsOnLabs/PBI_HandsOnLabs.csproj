@@ -81,6 +81,8 @@
     <Content Include="App_HOL\content\bootstrap\bootstrap.min.css" />
     <Content Include="App_HOL\content\docs.css" />
     <Content Include="App_HOL\content\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="App_HOL\content\gridster\jquery.gridster.css" />
+    <Content Include="App_HOL\content\gridster\jquery.gridster.min.css" />
     <Content Include="App_HOL\content\layout.css" />
     <Content Include="App_HOL\favicon.ico" />
     <Content Include="App_HOL\images\angular-logo.svg" />
@@ -94,6 +96,10 @@
     <Content Include="App_HOL\scripts\sharedLibs\angular\angular.min.js" />
     <Content Include="App_HOL\scripts\sharedLibs\bootstrap\bootstrap.js" />
     <Content Include="App_HOL\scripts\sharedLibs\bootstrap\bootstrap.min.js" />
+    <Content Include="App_HOL\scripts\sharedLibs\gridster\jquery.gridster.js" />
+    <Content Include="App_HOL\scripts\sharedLibs\gridster\jquery.gridster.min.js" />
+    <Content Include="App_HOL\scripts\sharedLibs\gridster\jquery.gridster.with-extras.js" />
+    <Content Include="App_HOL\scripts\sharedLibs\gridster\jquery.gridster.with-extras.min.js" />
     <Content Include="App_HOL\scripts\sharedLibs\jquery\jquery-2.2.0.min.js" />
     <Content Include="App_HOL\scripts\sharedLibs\powerbi\angular-powerbi.js" />
     <Content Include="App_HOL\scripts\sharedLibs\powerbi\angular-powerbi.min.js" />

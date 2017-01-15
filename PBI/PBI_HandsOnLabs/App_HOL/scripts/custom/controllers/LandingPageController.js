@@ -8,45 +8,37 @@ function LandingPageController($scope) {
     };
 
     $scope.config = {
-        workspaceCollection: 'PBIWorkspaceHOLs',
-        workspaceId: 'cfcd5012-232d-461b-9158-79d3bebc8ac4',
-        reportId: '86d71fe2-0230-4fc5-ae3a-81a47b86a1e2',
+        workspaceCollection: 'pbiwchols',
+        workspaceId: 'f1af7361-f57f-4c80-81a7-cd96f3906ef0',
+        reportId: '9bfcfa5a-5220-4919-b86b-fe90bcc6c03a',
         type: 'report',
-        accessToken: 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ2ZXIiOiIwLjIuMCIsImF1ZCI6Imh0dHBzOi8vYW5hbHlzaXMud2luZG93cy5uZXQvcG93ZXJiaS9hcGkiLCJpc3MiOiJQb3dlciBCSSBOb2RlIFNESyIsIndjbiI6IlBCSVdvcmtzcGFjZUhPTHMiLCJ3aWQiOiJjZmNkNTAxMi0yMzJkLTQ2MWItOTE1OC03OWQzYmViYzhhYzQiLCJyaWQiOiI4NmQ3MWZlMi0wMjMwLTRmYzUtYWUzYS04MWE0N2I4NmExZTIiLCJuYmYiOjE0ODMwMjcxODAsImV4cCI6MTQ4MzAzMDc4MH0.xIZDtsD6m-l_C-613lA2WZcq-b7X1Sdv2UEIOgPS6yg',
+        accessToken: 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ2ZXIiOiIwLjIuMCIsIndjbiI6InBiaXdjaG9scyIsIndpZCI6ImYxYWY3MzYxLWY1N2YtNGM4MC04MWE3LWNkOTZmMzkwNmVmMCIsInJpZCI6IjliZmNmYTVhLTUyMjAtNDkxOS1iODZiLWZlOTBiY2M2YzAzYSIsImlzcyI6IlBvd2VyQklTREsiLCJhdWQiOiJodHRwczovL2FuYWx5c2lzLndpbmRvd3MubmV0L3Bvd2VyYmkvYXBpIiwiZXhwIjoxNDg0NDk3NzUxLCJuYmYiOjE0ODQ0ODY5NTF9.jF4OFmoE9b3adC6BZhNzGEtfxZ1AmtBJxizNgz5pN24',
         embedUrl: 'https://embedded.powerbi.com/appTokenReportEmbed',
-        id: '86d71fe2-0230-4fc5-ae3a-81a47b86a1e2',
+        id: '9bfcfa5a-5220-4919-b86b-fe90bcc6c03a',
         settings: {
-            filterPaneEnabled: true,
+            filterPaneEnabled: false,
             navContentPaneEnabled: true
         }
     };
 
     $scope.showReport = function () {
-       
-            // Grab the reference to the div HTML element that will host the report.
-            $scope.reportContainer = angular.element('#reportContainer')[0];
 
-            // Embed the report and display it within the div container.
-            $scope.report = powerbi.embed(reportContainer, $scope.config);
+        // Grab the reference to the div HTML element that will host the report.
+        $scope.reportContainer = angular.element('#reportContainer')[0];
 
-            console.log($scope.report);
-            console.log(powerbi.embeds);
+        // Embed the report and display it within the div container.
+        $scope.report = powerbi.embed(reportContainer, $scope.config);
 
-            // Report.off removes a given event handler if it exists.
-            $scope.report.off("loaded");
+        // Report.off removes a given event handler if it exists.
+        $scope.report.off("loaded");
 
-            // Report.on will add an event handler which prints to Log window.
-            $scope.report.on("loaded", function (event) {
-                console.log(event);
-            });
-            // Report.on will add an event handler which prints to Log window.
-            $scope.report.on("pageChanged", function (event) {
-                console.log(event);
-            });
-            //handling error event
-            $scope.report.on("error", function (event) {
-            });
-        
+        // Report.on will add an event handler which prints to Log window.
+        $scope.report.on("loaded", function (event) { });
+        // Report.on will add an event handler which prints to Log window.
+        $scope.report.on("pageChanged", function (event) { });
+        //handling error event
+        $scope.report.on("error", function (event) { });
+
     };
 
 }
